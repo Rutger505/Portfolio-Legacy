@@ -1,0 +1,48 @@
+/* @media only screen and (max-width: 599px) {
+	main{
+		color: blue;
+	}
+} */
+* {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+}
+.margin-home {
+  margin: 0px 12% 0px 8%;
+}
+.about-me {
+  display: flex;
+  padding: 1%;
+}
+.fill {
+  flex-grow: 1;
+}
+p {
+  font-size: 20px;
+  font-weight: 600;
+  width: 400px;
+  margin: 0px;
+}
+.about-me-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.right-foto {
+  height: 300px;
+}
+
+.more-to-page {
+  font-weight: 600;
+  font-size: 18px;
+  height: 24px;
+}
+.more-to-page img {
+  height: 16px;
+}

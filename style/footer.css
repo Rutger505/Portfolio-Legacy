@@ -1,0 +1,11 @@
+.footer-container {
+  height: 50px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 70px;
+}
+.footer-img {
+  height: 30px;
+}
