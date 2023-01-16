@@ -17,23 +17,21 @@ body {
 .margin-home {
   margin: 0px 12% 0px 8%;
 }
-.about-me {
+.home-block {
   display: flex;
+  flex-wrap: wrap;
   padding: 1%;
 }
 .fill {
   flex-grow: 1;
 }
-p {
+.home-block p {
   font-size: 20px;
   font-weight: 600;
   width: 400px;
   margin: 0px;
 }
-.about-me-text-container {
-  display: flex;
-  flex-direction: column;
-}
+
 .right-foto {
   height: 300px;
 }
