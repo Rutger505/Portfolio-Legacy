@@ -25,9 +25,13 @@ body {
 .fill {
   flex-grow: 1;
 }
-.home-block p {
+.home-block h2 {
   font-size: 20px;
   font-weight: 600;
+}
+.home-block p {
+  font-size: 20px;
+  font-weight: 400;
   width: 400px;
   margin: 0px;
 }
@@ -40,6 +44,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   height: 24px;
+  margin-top: 100px;
 }
 .more-to-page img {
   height: 16px;
