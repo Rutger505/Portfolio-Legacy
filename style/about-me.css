@@ -1,0 +1,15 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+}
+.fill {
+  flex-grow: 1;
+}

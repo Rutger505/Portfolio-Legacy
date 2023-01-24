@@ -10,21 +10,25 @@
 }
 html,
 body {
+  height: 100%;
   margin: 0px;
   padding: 0px;
   font-family: "Inter", sans-serif;
 }
-
+body {
+  display: flex;
+  flex-direction: column;
+}
 .margin-header {
   margin: 0px 7.5% 0px 7.5%;
+}
+.fill {
+  flex-grow: 1;
 }
 .home-block {
   display: flex;
   flex-wrap: wrap;
   padding: 1%;
-}
-.fill {
-  flex-grow: 1;
 }
 .home-block h2 {
   font-size: 20px;

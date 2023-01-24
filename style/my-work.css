@@ -15,7 +15,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 .margin-header {
-  margin: 0px 5.5% 0px 5.5%;
+  margin: 0px 7.5% 0px 7.5%;
 }
 .fill {
   flex-grow: 1;
@@ -36,11 +36,11 @@ h1 {
   height: 100%;
 }
 .example-img {
-  height: 300px;
+  height: 320px;
 }
 ul {
   padding: 0px;
 }
-li {
+.example-text li {
   margin: 0 0 15px 0;
 }
