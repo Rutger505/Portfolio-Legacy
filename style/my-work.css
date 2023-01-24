@@ -15,7 +15,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 .margin-header {
-  margin: 0px 7.5% 0px 7.5%;
+  margin: 0px 5.5% 0px 5.5%;
 }
 .fill {
   flex-grow: 1;
@@ -25,12 +25,22 @@ h1 {
 }
 .example-work {
   display: flex;
-  height: 400px;
+  align-items: center;
+  height: 350px;
   border-radius: 3px;
   margin-bottom: 20px;
   padding: 3%;
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(245, 245, 245);
 }
-.example-work-img {
-  height: 380px;
+.example-text {
+  height: 100%;
+}
+.example-img {
+  height: 300px;
+}
+ul {
+  padding: 0px;
+}
+li {
+  margin: 0 0 15px 0;
 }
