@@ -1,0 +1,46 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+}
+.fill {
+  flex-grow: 1;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 15px;
+  margin: 0px;
+}
+.outer-container {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  box-sizing: border-box;
+  padding: 3%;
+  width: 400px;
+
+  outline: none;
+  border: 1,5px solid black;
+  border-radius: 4px;
+
+  margin-bottom: 10px;
+}
+input:hover,
+input:focus {
+  border-color: #0066ff;
+}
+.input-small {
+  height: 40px;
+}
+.input-large {
+  height: 200px;
+}
