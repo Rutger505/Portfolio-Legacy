@@ -10,6 +10,7 @@
 }
 
 .headerpart-1 {
+  width: 120px;
   display: flex;
   justify-content: flex-start;
 }
@@ -23,9 +24,20 @@
   align-items: center;
   flex-grow: 1;
 }
+.pages-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+.pages-container li {
+  width: 135px;
+  display: flex;
+  justify-content: center;
+}
 .page-button {
   font-size: 24px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   height: 60px;
   padding-left: 10px;
@@ -45,23 +57,17 @@
 .page-button:hover {
   background-position: bottom;
 }
-.pages-container {
-  column-gap: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .headerpart-3 {
+  width: 120px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
 .header-line {
-  width: 85%;
+  width: 100%;
   height: 3px;
   background-color: #0066ff;
   transform-origin: bottom;
-  width: 100%;
 }

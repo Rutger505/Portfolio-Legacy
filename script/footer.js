@@ -11,7 +11,7 @@ class MyFooter extends HTMLElement {
 
        <div class="footer-container">
   <p>06 46540375</p>
-  <p>© 2022 All rights reserved.​</p>
+  <p>© 2023 All rights reserved.​</p>
   <nav>
     <img class="footer-img" src="./img/facebook icon.png" alt="" />
     <img class="footer-img" src="./img/twitter icon.png" alt="" />
