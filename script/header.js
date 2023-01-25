@@ -14,11 +14,16 @@ class MyHeader extends HTMLElement {
     </div>
     <nav class="headerpart-2 pages-container">
       <li><a class="page-button" href="index.html">Home</a></li>
-      <li><a class="page-button page-button-center" href="my-work.html">My Work</a></li>
+      <li><a class="page-button" href="my-work.html">My Work</a></li>
       <li><a class="page-button" href="about-me.html">About Me</a></li>
     </nav>
     <div class="headerpart-3">
       <a class="page-button" href="contact.html">Contact</a>
+      <button class="dropdown-button"> dropdown
+        <div class="dropdown-container">
+          <nav></nav>
+        </div>
+      </button>
     </div>
   </div>
   <div class="header-line"></div>

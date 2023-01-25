@@ -71,3 +71,28 @@
   background-color: #0066ff;
   transform-origin: bottom;
 }
+/* dropdown menu */
+.dropdown-button {
+  display: none;
+}
+.dropdown-container {
+  display: none;
+  height: 400px;
+  width: 300px;
+
+  right: 0px;
+  top: 93px;
+  background-color: tomato;
+}
+
+@media only screen and (max-width: 790px) {
+  .page-button {
+    display: none;
+  }
+  .pages-container li {
+    width: 0px;
+  }
+  .dropdown-button {
+    display: inline-block;
+  }
+}
