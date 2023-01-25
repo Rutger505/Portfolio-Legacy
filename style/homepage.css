@@ -19,12 +19,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* margin left and right of home */
 .margin-header {
   margin: 0px 7.5% 0px 7.5%;
 }
 .fill {
   flex-grow: 1;
 }
+/* home block styling */
 .home-block {
   display: flex;
   flex-wrap: wrap;
