@@ -1,11 +1,17 @@
 .footer-container {
-  height: 50px;
-  background-color: rgb(245, 245, 245);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  background-color: rgb(245, 245, 245);
   column-gap: 70px;
 }
 .footer-img {
   height: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+  }
 }

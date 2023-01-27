@@ -37,3 +37,9 @@ img {
 .text-container:on {
   color: brown;
 }
+@media only screen and (max-width: 400px) {
+  .outer-container img {
+    height: auto;
+    width: 95%;
+  }
+}

@@ -19,11 +19,12 @@ class MyHeader extends HTMLElement {
     </nav>
     <div class="headerpart-3">
       <a class="page-button" href="contact.html">Contact</a>
-      <button class="dropdown-button"> dropdown
-        <div class="dropdown-container">
-          <nav></nav>
-        </div>
+      <button id="dropdown-button" onclick="dropdown()">
+        <img src="./img/dropdown menu.png" alt="" />
       </button>
+      <div id="dropdown-container">
+        <nav></nav>
+      </div>
     </div>
   </div>
   <div class="header-line"></div>
