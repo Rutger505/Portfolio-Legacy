@@ -5,10 +5,10 @@ class MyHeader extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-        <div class="header-container">
+       <div class="header-container">
   <div class="header-nav-container">
     <div class="headerpart-1">
-      <a href="index.html">
+      <a class="logo-container" href="index.html">
         <img class="logo-img" src="./img/Logo-P.png" alt="Logo" />
       </a>
     </div>
@@ -22,10 +22,15 @@ class MyHeader extends HTMLElement {
       <button id="dropdown-button" onclick="dropdown()">
         <img src="./img/dropdown menu.png" alt="" />
       </button>
-      <div id="dropdown-container">
-        <nav></nav>
-      </div>
     </div>
+  </div>
+  <div id="dropdown-container">
+    <nav>
+      <li><a class="page-button-drop" href="index.html">Home</a></li>
+      <li><a class="page-button-drop" href="my-work.html">My work</a></li>
+      <li><a class="page-button-drop" href="about-me.html">About me</a></li>
+      <li><a class="page-button-drop" href="contact.html">Contact</a></li>
+    </nav>
   </div>
   <div class="header-line"></div>
 </div>
