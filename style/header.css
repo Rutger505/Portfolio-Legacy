@@ -32,7 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 50px;
+  column-gap: 5%;
 }
 .pages-container li {
   width: 135px;

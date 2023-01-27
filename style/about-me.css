@@ -43,3 +43,8 @@ img {
     width: 95%;
   }
 }
+@media only screen and (max-width: 490px) {
+  .fill {
+    flex-grow: 0;
+  }
+}
