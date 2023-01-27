@@ -97,6 +97,7 @@
   padding: 10px;
   display: block;
   text-align: center;
+  font-size: 23px;
 }
 .page-button-drop:hover {
   background-color: #0066ff30;
