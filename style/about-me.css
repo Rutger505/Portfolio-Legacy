@@ -30,8 +30,9 @@ h1 {
 .text-container {
   max-width: 400px;
 }
-img {
+.right-img {
   height: 300px;
+  margin-bottom: 15px;
 }
 
 .text-container:on {

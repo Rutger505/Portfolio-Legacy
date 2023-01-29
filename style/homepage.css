@@ -28,29 +28,39 @@ body {
   flex-wrap: wrap;
   padding: 1%;
 }
-.home-block h2 {
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-block h2 {
   font-size: 20px;
   font-weight: 600;
 }
-.home-block p {
+.text-block p {
   font-size: 20px;
   font-weight: 400;
   max-width: 400px;
   margin: 0px;
 }
-
-.right-foto {
-  height: 300px;
+.text-block a {
+  display: flex;
+  align-items: center;
 }
-
+/* more about me/project link */
 .more-to-page {
   font-weight: 600;
   font-size: 18px;
-  height: 24px;
+  margin: 10px 0px 10px 0px;
 }
 .more-to-page img {
   height: 16px;
-  margin-top: 10px;
+  margin-left: 3px;
+}
+
+.right-foto {
+  height: 300px;
 }
 @media only screen and (max-width: 400px) {
   .right-foto {

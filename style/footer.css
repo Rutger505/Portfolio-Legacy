@@ -14,4 +14,7 @@
   .footer-container {
     flex-direction: column;
   }
+  .footer-container nav {
+    margin-bottom: 20px;
+  }
 }
