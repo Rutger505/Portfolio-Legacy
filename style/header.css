@@ -89,15 +89,22 @@
   height: 64px;
 }
 
-#dropdown-container {
-  display: none;
+.dropdown-container {
+  display: flex;
   justify-content: center;
-  animation: ease-in-out 5s;
+  max-height: 0px;
+
+  overflow: hidden;
+  transition: max-height 5s ease-in-out;
+}
+
+.dropdown-container:focus {
+  max-height: 5000px;
 }
 .page-button-drop {
-  padding: 10px;
   display: block;
   text-align: center;
+  padding: 10px;
   font-size: 23px;
 }
 .page-button-drop:hover {

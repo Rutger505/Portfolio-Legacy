@@ -19,12 +19,15 @@ class MyHeader extends HTMLElement {
     </nav>
     <div class="headerpart-3">
       <a class="page-button" href="contact.html">Contact</a>
-      <button id="dropdown-button" onclick="dropdown()">
+      <button id="dropdown-button" data-dropdown-button onclick="dropdown()">
         <img src="./img/dropdown menu.png" alt="" />
       </button>
     </div>
   </div>
-  <div id="dropdown-container">
+  <div
+    onclick="document.getElementById('dropdown-container').focus();return false"
+    class="dropdown-container line-animation"
+  >
     <nav>
       <li><a class="page-button-drop" href="index.html">Home</a></li>
       <li><a class="page-button-drop" href="my-work.html">My work</a></li>
@@ -34,6 +37,7 @@ class MyHeader extends HTMLElement {
   </div>
   <div class="header-line"></div>
 </div>
+
 
         `;
   }
