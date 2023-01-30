@@ -38,13 +38,13 @@ h1 {
 .text-container:on {
   color: brown;
 }
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .outer-container img {
     height: auto;
     width: 95%;
   }
 }
-@media only screen and (max-width: 490px) {
+@media   screen and (max-width: 490px) {
   .fill {
     flex-grow: 0;
   }

@@ -23,6 +23,8 @@ body {
 h1 {
   text-align: center;
 }
+
+/* start my work css */
 .example-work {
   display: flex;
   flex-wrap: wrap;
@@ -31,9 +33,6 @@ h1 {
   margin-bottom: 20px;
   padding: 3%;
   background-color: rgb(245, 245, 245);
-}
-.example-text {
-  height: 100%;
 }
 .example-img {
   height: 320px;
@@ -44,7 +43,7 @@ ul {
 .example-text li {
   margin: 0 0 15px 0;
 }
-@media only screen and (max-width: 780px) {
+@media screen and (max-width: 780px) {
   .example-img {
     height: auto;
     width: 95%;

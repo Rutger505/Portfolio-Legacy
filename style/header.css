@@ -92,6 +92,7 @@
 #dropdown-container {
   display: none;
   justify-content: center;
+  animation: ease-in-out 5s;
 }
 .page-button-drop {
   padding: 10px;
@@ -104,7 +105,7 @@
 }
 
 /* px 800 */
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 9800px) {
   .page-button,
   .pages-container li {
     display: none;
