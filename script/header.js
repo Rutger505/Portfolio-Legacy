@@ -5,7 +5,7 @@ class MyHeader extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-       <div class="header-container">
+      <div class="header-container">
   <div class="header-nav-container">
     <div class="headerpart-1">
       <a class="logo-container" href="index.html">
@@ -20,7 +20,7 @@ class MyHeader extends HTMLElement {
     <div class="headerpart-3">
       <a class="page-button" href="contact.html">Contact</a>
       <button id="dropdown-button">
-        <img src="./img/dropdown menu.png" alt="" />
+        <img id="dropdown-button-img" src="./img/dropdown menu.png" alt="" />
       </button>
     </div>
   </div>

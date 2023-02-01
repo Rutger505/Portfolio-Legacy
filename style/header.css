@@ -14,12 +14,14 @@
   justify-content: flex-start;
 }
 .logo-container {
+  display: flex;
+  align-items: center;
   height: 64px;
-  margin: 12px 0px 12px 0px;
+  margin: 8px 0px 8px 0px;
   padding: 0px;
 }
 .logo-img {
-  height: 100%;
+  height: 80%;
 }
 
 .headerpart-2 {
@@ -97,7 +99,6 @@
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
 }
-
 #dropdown-container:focus {
   max-height: 200px;
 }
