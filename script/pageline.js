@@ -1,11 +1,12 @@
 // get page name
-var path = window.location.pathname;
-var page = path.split("/").pop();
+const path = window.location.pathname;
+const page = path.split("/").pop();
 
 // set line color
 const line = document.getElementsByClassName("page-button-line");
 
-if (page == "index.html" || page == "") {
+if (page == "index.html" || page == undefined) {
+  console.log("i am here lol");
   line[0].classList.add("line-color");
 } else if (page == "my-work.html") {
   line[1].classList.add("line-color");
@@ -18,7 +19,8 @@ if (page == "index.html" || page == "") {
 // set button in dropdown color
 const buttonDropdown = document.getElementsByClassName("page-button-dropdown");
 
-if (page == "index.html" || page == "") {
+if (page == "index.html" || page == undefined) {
+  console.log("i am here lol");
   buttonDropdown[0].style.color = "#0066ff";
 } else if (page == "my-work.html") {
   buttonDropdown[1].style.color = "#0066ff";
