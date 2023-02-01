@@ -1,3 +1,4 @@
+// custom header element
 class MyHeader extends HTMLElement {
   constructor() {
     super();
@@ -13,12 +14,30 @@ class MyHeader extends HTMLElement {
       </a>
     </div>
     <nav class="headerpart-2 pages-container">
-      <li><a class="page-button" href="index.html">Home</a></li>
-      <li><a class="page-button" href="my-work.html">My Work</a></li>
-      <li><a class="page-button" href="about-me.html">About Me</a></li>
+      <li>
+        <a class="page-button" href="index.html">
+        Home
+          <div class="page-button-line"></div>
+        </a>
+      </li>
+      <li>
+        <a class="page-button" href="my-work.html">
+          My Work
+          <div class="page-button-line"></div>
+        </a>
+      </li>
+      <li>
+        <a class="page-button" href="about-me.html"
+          >About Me
+          <div class="page-button-line"></div>
+        </a>
+      </li>
     </nav>
     <div class="headerpart-3">
-      <a class="page-button" href="contact.html">Contact</a>
+      <a class="page-button" href="contact.html"
+        >Contact
+        <div class="page-button-line"></div>
+      </a>
       <button id="dropdown-button">
         <img id="dropdown-button-img" src="./img/dropdown menu.png" alt="" />
       </button>
@@ -26,19 +45,15 @@ class MyHeader extends HTMLElement {
   </div>
   <div tabindex="0" id="dropdown-container">
     <nav>
-      <li><a class="page-button-drop" href="index.html">Home</a></li>
-      <li><a class="page-button-drop" href="my-work.html">My work</a></li>
-      <li><a class="page-button-drop" href="about-me.html">About me</a></li>
-      <li><a class="page-button-drop" href="contact.html">Contact</a></li>
+      <li><a class="page-button-dropdown" href="index.html">Home</a></li>
+      <li><a class="page-button-dropdown" href="my-work.html">My work</a></li>
+      <li><a class="page-button-dropdown" href="about-me.html">About me</a></li>
+      <li><a class="page-button-dropdown" href="contact.html">Contact</a></li>
     </nav>
   </div>
   <div class="header-line"></div>
 </div>
-
-
-
-
-        `;
+    `;
   }
 }
 customElements.define("custom-header", MyHeader);

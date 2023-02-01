@@ -48,6 +48,10 @@ body {
   display: flex;
   align-items: center;
 }
+.right-foto {
+  height: 300px;
+  border-radius: 5px;
+}
 /* more about me/project link */
 .more-to-page {
   font-weight: 600;
@@ -59,9 +63,6 @@ body {
   margin-left: 3px;
 }
 
-.right-foto {
-  height: 300px;
-}
 @media only screen and (max-width: 400px) {
   .right-foto {
     width: 95%;

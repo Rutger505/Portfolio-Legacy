@@ -1,3 +1,4 @@
+// custom header element
 class MyFooter extends HTMLElement {
   constructor() {
     super();
@@ -5,10 +6,6 @@ class MyFooter extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-
-
-
-
        <div class="footer-container">
   <p>06 46540375</p>
   <p>© 2023 All rights reserved.</p>
@@ -27,12 +24,7 @@ class MyFooter extends HTMLElement {
     /></a>
   </nav>
 </div>  
-
-
-
-
-
-            `;
+    `;
   }
 }
 customElements.define("custom-footer", MyFooter);
