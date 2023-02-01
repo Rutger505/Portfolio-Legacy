@@ -89,18 +89,19 @@
   height: 64px;
 }
 
-.dropdown-container {
+#dropdown-container {
   display: flex;
   justify-content: center;
   max-height: 0px;
 
   overflow: hidden;
-  transition: max-height 5s ease-in-out;
+  transition: max-height 0.25s ease-in-out;
 }
 
-.dropdown-container:focus {
-  max-height: 5000px;
+#dropdown-container:focus {
+  max-height: 200px;
 }
+
 .page-button-drop {
   display: block;
   text-align: center;
@@ -112,7 +113,7 @@
 }
 
 /* px 800 */
-@media screen and (max-width: 9800px) {
+@media screen and (max-width: 800px) {
   .page-button,
   .pages-container li {
     display: none;
