@@ -2,6 +2,9 @@
 var path = window.location.pathname;
 var page = path.split("/").pop();
 
+console.log(path);
+console.log(page);
+
 // set line color
 const line = document.getElementsByClassName("page-button-line");
 
