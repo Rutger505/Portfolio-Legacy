@@ -17,7 +17,7 @@ if (page == "index.html") {
   line[0].classList.add("line-color");
 }
 
-// set button in dropdown color
+// set button color in dropdown
 const buttonDropdown = document.getElementsByClassName("page-button-dropdown");
 
 if (page == "index.html") {
