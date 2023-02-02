@@ -29,5 +29,5 @@ if (page == "index.html") {
 } else if (page == "contact.html") {
   buttonDropdown[3].style.color = "#0066ff";
 } else {
-  buttonDropdown[0].classList.add("line-color");
+  buttonDropdown[0].style.color = "#0066ff";
 }
