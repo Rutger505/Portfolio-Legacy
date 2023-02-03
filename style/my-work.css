@@ -44,6 +44,7 @@ ul {
 }
 .example-img {
   height: 320px;
+  border-radius: 3px;
 }
 @media screen and (max-width: 780px) {
   .example-img {

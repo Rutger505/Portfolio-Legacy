@@ -31,9 +31,13 @@ h1 {
 .text-container {
   max-width: 400px;
 }
+.text-container p{
+  font-size: 18px;
+}
 .right-img {
   height: 300px;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 .text-container:on {
