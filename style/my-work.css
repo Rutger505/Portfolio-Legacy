@@ -20,10 +20,10 @@ body {
 .fill {
   flex-grow: 1;
 }
+
 h1 {
   text-align: center;
 }
-
 .example-work {
   display: flex;
   flex-wrap: wrap;
@@ -33,18 +33,21 @@ h1 {
   padding: 3%;
   background-color: rgb(245, 245, 245);
 }
-.example-img {
-  height: 320px;
-}
 ul {
   padding: 0px;
+}
+.example-text {
+  max-width: 350px;
 }
 .example-text li {
   margin: 0 0 15px 0;
 }
+.example-img {
+  height: 320px;
+}
 @media screen and (max-width: 780px) {
   .example-img {
     height: auto;
-    width: 95%;
+    width: 100%;
   }
 }

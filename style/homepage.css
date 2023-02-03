@@ -22,6 +22,9 @@ body {
 .fill {
   flex-grow: 1;
 }
+.header-text-margin {
+  margin-top: 30px;
+}
 /* home block styling */
 .home-block {
   display: flex;
